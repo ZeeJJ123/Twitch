@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "5d2b9d78-b4da-4710-bdd4-a9c5d67869ec",
+		"name": "Recommendation Controller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10331431"
+	},
+	"item": [
+		{
+			"name": "Recommendation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/recommendation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recommendation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
